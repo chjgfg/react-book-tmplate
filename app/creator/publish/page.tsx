@@ -56,7 +56,8 @@ export default function PublishPage() {
     };
 
     return (
-        <div className="min-h-screen bg-[#F8FAFC] pt-24 pb-20">
+        // <div className="min-h-screen bg-[#F8FAFC] pt-24 pb-20">
+        <div className="min-h-screen bg-[#ffffff] pt-24 pb-20">
             <div className="max-w-5xl mx-auto px-6">
                 <BackButton />
 
@@ -150,7 +151,8 @@ export default function PublishPage() {
                     opacity: 1;
                 }
                 .custom-mde .editor-preview-active-side {
-                    background: #F8FAFC !important;
+                    // background: #F8FAFC !important;
+                    background: #ffffff !important;
                     border: none !important;
                     padding: 30px !important;
                 }

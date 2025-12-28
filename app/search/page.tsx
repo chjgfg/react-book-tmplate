@@ -33,7 +33,7 @@ export default function SearchPage() {
     ];
 
     return (
-        <div className="min-h-screen bg-[#F8FAFC] relative overflow-hidden">
+        <div className="min-h-screen bg-[#ffffff] relative overflow-hidden">
             {/* 背景流光 */}
             <div className="absolute top-0 left-1/4 w-[500px] h-[500px] bg-blue-100/20 rounded-full blur-[120px] -z-10" />
 

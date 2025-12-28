@@ -34,7 +34,7 @@ export default function CouponPage() {
     };
 
     return (
-        <div className="min-h-screen bg-[#F8FAFC] pt-24 pb-20">
+        <div className="min-h-screen bg-[#ffffff] pt-24 pb-20">
             <div className="max-w-4xl mx-auto px-6">
                 <div className="flex justify-between items-center mb-10">
                     <BackButton />
@@ -65,7 +65,8 @@ export default function CouponPage() {
                             <div className={`w-32 flex flex-col items-center justify-center rounded-l-[2.3rem] text-white relative ${coupon.claimed ? 'bg-slate-400' : 'bg-red-500'}`}>
                                 <span className="text-2xl font-black">{coupon.value}</span>
                                 <div className="absolute -right-1.5 top-0 bottom-0 flex flex-col justify-around py-2">
-                                    {[1,2,3,4,5,6].map(i => <div key={i} className="w-3 h-3 bg-[#F8FAFC] rounded-full" />)}
+                                    {/* {[1,2,3,4,5,6].map(i => <div key={i} className="w-3 h-3 bg-[#F8FAFC] rounded-full" />)} */}
+                                    {[1,2,3,4,5,6].map(i => <div key={i} className="w-3 h-3 bg-[#ffffff] rounded-full" />)}
                                 </div>
                             </div>
 

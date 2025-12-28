@@ -13,7 +13,7 @@ const MEDALS = [
 
 export default function AchievementPage() {
     return (
-        <div className="min-h-screen bg-[#F8FAFC] pt-24 pb-20">
+        <div className="min-h-screen bg-[#ffffff] pt-24 pb-20">
             <div className="max-w-5xl mx-auto px-6">
                 <BackButton />
                 <h1 className="text-4xl font-black text-slate-900 my-10 flex items-center gap-3">

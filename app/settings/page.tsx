@@ -31,7 +31,7 @@ export default function SettingsPage() {
     ];
 
     return (
-        <div className="min-h-screen bg-[#F8FAFC] pt-24 pb-20">
+        <div className="min-h-screen bg-[#ffffff] pt-24 pb-20">
             <div className="max-w-5xl mx-auto px-6">
                 <header className="mb-10">
                     <h1 className="text-3xl font-black text-gray-900 tracking-tight">账号设置</h1>

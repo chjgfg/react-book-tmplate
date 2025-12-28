@@ -46,7 +46,7 @@ export default function RolesPage() {
     };
 
     return (
-        <div className="min-h-screen bg-[#F8FAFC] pt-24 pb-20">
+        <div className="min-h-screen bg-[#ffffff] pt-24 pb-20">
             <div className="max-w-6xl mx-auto px-6">
                 <BackButton />
 

@@ -40,7 +40,7 @@ export default function ProfilePage() {
     ];
 
     return (
-        <div className="min-h-screen bg-[#F8FAFC] pb-20">
+        <div className="min-h-screen bg-[#ffffff] pb-20">
             {/* 顶部装饰背景 */}
             <div className="h-48 bg-gradient-to-r from-blue-600 to-indigo-700 w-full" />
 

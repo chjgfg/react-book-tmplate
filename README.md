@@ -40,3 +40,36 @@ tree app
 fuser -k 3000/tcp && rm -rf .next && npm run dev
 rm -rf .next && npm run dev
 ```
+
+```ts
+// 下面这些这些 Hook 只能出现在 use client + Suspense 里
+// 拆成 Server + Client + Suspense
+useSearchParams()
+useRouter()
+useParams()
+usePathname()
+```
+```ts
+import { Suspense } from "react";
+import SearchClient from "./search-client";
+
+export default function SearchPage() {
+  return (
+    <Suspense fallback={<div>Loading...</div>}>
+      <SearchClient />
+    </Suspense>
+  );
+}
+```
+```ts
+"use client";
+
+import { useSearchParams } from "next/navigation";
+
+export default function SearchClient() {
+  const searchParams = useSearchParams();
+  const keyword = searchParams.get("q");
+
+  return <div>搜索：{keyword}</div>;
+}
+```
